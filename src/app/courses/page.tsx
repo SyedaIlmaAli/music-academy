@@ -4,7 +4,6 @@ import Image, { StaticImageData } from "next/image";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import courseData from "@/data/music_courses.json";
 import { music_courses } from "@/data/music_courses";
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 interface Course {
     id: number,
